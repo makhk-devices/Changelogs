@@ -9,6 +9,7 @@
 - Switch to AOSP bt stack
 - Bring back refresh rate adjustment in DeviceSettings (removed from Settings>Display)
 - Cleanup trees and reduce log spam
+
 Note: If KCAL doesnt work, toggle Reading mode in LiveDisplay once and try again
 
 ### Check previous changelog [HERE](https://raw.githubusercontent.com/makhk-devices/Changelogs/main/flos/changelog.txt)
