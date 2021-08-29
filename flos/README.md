@@ -7,6 +7,7 @@
 - Import GPS stack from LA.UM.9.1.r1-0700-SMxxx0.0
 - Build the GPS/GNSS stack from source
 - Switch to AOSP bt stack
+- Remove unused colormodes from Display settings (we have KCAL)
 - Bring back refresh rate adjustment in DeviceSettings (removed from Settings>Display)
 - Cleanup trees and reduce log spam
 
