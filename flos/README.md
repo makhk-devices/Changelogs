@@ -2,16 +2,22 @@
 ![image](https://user-images.githubusercontent.com/30686963/129340582-c5edac6e-cbfa-4750-acf9-ea62bf84af5c.png)
 
 # Changelogs
-### 29/08/2021
-- Add miui camera port (A Lighter verison of ANXcam) Thanks to @neobuddy89
-- Import GPS stack from LA.UM.9.1.r1-0700-SMxxx0.0
-- Build the GPS/GNSS stack from source
-- Switch to AOSP bt stack
-- Remove unused colormodes from Display settings (we have KCAL)
-- Bring back refresh rate adjustment in DeviceSettings (removed from Settings>Display)
-- Cleanup trees and reduce log spam
+### 18/09/2021
+- Lower screen backlight brightness
+- Redesign refresh rate option in device settings
+- Drop unnecessary libs
+- 69 optimizations in kernel (check my git for changes)
+- Add back kcal in devicesettings
+- Fixed high saturation issues and color mode settings
+- Add via browser (replaces 🦆)
+- Update build fp to Redfin sept
+- Address some denials and clean up trees
 
-Note: If KCAL doesnt work, toggle Reading mode in LiveDisplay once and try again
+### Note:
+- Includes MIUI camera port by default, don't complain bugs on that
+- Use highdimen kernel (miui dimensions)
+- Safetynet may or may not pass by default, blame google 😂
+- If KCAL doesnt work, toggle Reading mode in LiveDisplay once and try again
 
 ### Check previous changelog [HERE](https://raw.githubusercontent.com/makhk-devices/Changelogs/main/flos/changelog.txt)
 
