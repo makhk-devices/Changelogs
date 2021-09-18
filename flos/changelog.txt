@@ -1,3 +1,14 @@
+18/09/2021
+Lower screen backlight brightness
+Redesign refresh rate option in device settings
+Drop unnecessary libs
+69 optimizations in kernel (check my git for changes)
+Add back kcal in devicesettings
+Fixed high saturation issues and color mode settings
+Add via browser (replaces 🦆)
+Update build fp to Redfin sept
+Address some denials and clean up trees
+
 29/08/2021
 Add miui camera port (A Lighter verison of ANXcam) Thanks to @neobuddy89
 Import GPS stack from LA.UM.9.1.r1-0700-SMxxx0.0
