@@ -2,27 +2,27 @@
 ![image](https://user-images.githubusercontent.com/30686963/129477746-a2cd3481-3e00-4fa9-8603-d53234c29926.png)
 
 # Changelogs
-### 15/08/2021
-- Initial Official Build
-- Fix devicesettings icon color
-- set the scale to 0.8 when the camera isn't in use
-- set the status bar height to 100px
-- Import CarrierConfig with LA.UM.9.1.r1-09200-SMxxx0.0
-- Use dex2oat64
-- Update build fingerprint from Redfin - RQ3A.210805.001.A1
-- sepolicy: allow hal_audio_default to interact with audio props
-- Use ROM's refresh rate handling and set 120Hz as default (Dropped from Devicesettings)
-- Improve dt2w handling
-- sepolicy: address some perf denials
-- sepolicy: Add interface entry for Legacy NFC HAL
-- sepolicy: Allow vendor_init to write sched nodes
-- Import batterysecret service from stock
-- sepolicy: Allow system_server to read fastcharge node
-- system.prop: add dex2oat & time props
-- Show a ring on the camera cutout when its in use
-- sepolicy: Address some hal_audio denials
-- sepolicy: Address suspend service denial
-- Misc Improvements
+### 22/09/2021
+- Add miui camera port (A Lighter verison of ANXcam)
+- Update build fp to Redfin - Sepetember 2021
+- Import GPS stack from LA.UM.9.1.r1-0700-SMxxx0.0
+- Build the GPS/GNSS stack from source
+- Switch to AOSP bt stack
+- Fix color modes from Display settings
+- Fix display color saturation
+- Lower screen backlight brightness
+- Redesign refresh rate option in DeviceSettings (removed from Settings>Display)
+- Import the AOSP fingerprint HAL 2.1
+- Import stock power and lights vintf fragments
+- Update s5kgw3 camera configs from MIUI v12.5.8.0 RKFINXM
+- Drop unnecessary libs
+- Some optimizations in kernel (check my git for changes)
+- Add back KCAL in devicesettings
+- Fix charging stats on lockscreen
+- Cleanup trees and reduce log spam
+
+### Source Changelog
+- https://blog.aospextended.com/AospExtended-v8.6/
 
 # Flashing Instructions
 ### Clean Flash (From other ROMs)
@@ -33,6 +33,6 @@
 
 ### Dirty Flash (From previous build of same ROM)
 - Reboot to recovery
-- Flash ROM, Gapps and Magisk (Optional)
+- Flash ROM and Magisk (Optional)
 - Wipe Caches
 - Reboot
