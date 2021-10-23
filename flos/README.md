@@ -24,11 +24,14 @@
 - Lineage upstream
 
 ### Note:
-- Includes MIUI camera port by default, don't complain bugs on that
+- Includes MIUI camera port
 - Use LowDimen kernel
 - If KCAL doesnt work, toggle Reading mode in LiveDisplay once and try again
 
 ### Check previous changelog [HERE](https://raw.githubusercontent.com/makhk-devices/Changelogs/main/flos/changelog.txt)
+
+### Credits
+- @daniml3 @grewal for trees
 
 # Flashing Instructions
 ### Clean Flash (From other ROMs)
