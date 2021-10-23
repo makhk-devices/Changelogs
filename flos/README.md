@@ -31,7 +31,7 @@
 ### Check previous changelog [HERE](https://raw.githubusercontent.com/makhk-devices/Changelogs/main/flos/changelog.txt)
 
 ### Credits
-- @daniml3 @grewal for trees
+- @daniml3 & @grewal for trees
 
 # Flashing Instructions
 ### Clean Flash (From other ROMs)
