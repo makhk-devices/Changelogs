@@ -1,0 +1,13 @@
+14/11/2021
+Initial Enforcing build
+switch audio HAL to V7
+power-libperfmgr: set 1 second timeout for interaction boosts
+drop redundant citsensorservice vintf entry
+drop QCOM WFD implementation
+Disable Bluetooth absolute volume
+kang dynamic refresh rate props from coral
+Misc improvements
+
+30/10/2021
+Initilal build
+Selinux permissive
