@@ -1,3 +1,44 @@
+23/10/2021
+Update ANXCamera to v204
+Update s5kgw3 camera configs from MIUI v12.5.8.0 RKFINXM
+Update brightness overlays from MIUI V12.5.6.0 RKFMIXM
+Import stock media_profiles
+Update blobs from MIUI v12.5.8.0 RKFMIXM
+Update libarcsoft_super_night_raw compatible with camera package
+Misc improvements
+
+Source Changelog
+October Patch merged
+Fixed volume dialog glitch with per app volume panel
+Fixed network traffic indicator disappearing
+Added activity indicators for wifi icon
+Improved icon pack support in launcher(icon pack gets applied in recents also)
+Added flashlight blink for incoming call
+Added iOS like toast notification for clipboard access
+Added simple fade filter to media artwork
+Added option to hide lock icon on lockscreen
+Lineage upstream
+
+18/09/2021
+Lower screen backlight brightness
+Redesign refresh rate option in device settings
+Drop unnecessary libs
+69 optimizations in kernel (check my git for changes)
+Add back kcal in devicesettings
+Fixed high saturation issues and color mode settings
+Add via browser (replaces 🦆)
+Update build fp to Redfin sept
+Address some denials and clean up trees
+
+29/08/2021
+Add miui camera port (A Lighter verison of ANXcam) Thanks to @neobuddy89
+Import GPS stack from LA.UM.9.1.r1-0700-SMxxx0.0
+Build the GPS/GNSS stack from source
+Switch to AOSP bt stack
+Remove unused colormodes from Display settings (we have KCAL)
+Bring back refresh rate adjustment in DeviceSettings (removed from Settings>Display)
+Cleanup trees and reduce log spam
+
 13/08/2021
 Fix devicesettings icon color
 set the scale to 0.8 when the camera isn't in use
