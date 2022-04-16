@@ -1,0 +1,28 @@
+13/02/2022
+
+Device Changelog
+- Add clear speaker in parts
+- Add script for ArcanaOS gaming mode
+- Cleanup trees
+
+Source Changelog
+• Feb Security Patch 
+• Introducing Arcana Game Space
+• Redesigned UI
+• Added AdGuard/Cloudfare DNS options
+• Per-app volume support
+• Vibration Patterns
+• Different dark theme options
+• SB and rounded corner paddings options
+• Notification delay for apps
+• support for app signature spoofing
+• Improved QS clocks
+• Udfps icons and animations
+• Updated Graphene Camera
+• More fonts and improved icon packs preview
+• fixed some qs and gesture bugs
+• Updated Lawnchair to 12.0.0.0 Alpha 5
+• Toggle for Combined Signal Icons
+•  Wifi and signal icon theming
+• Misc exclusive OFFICAL build changes
+• Misc Bug fixes
