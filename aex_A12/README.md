@@ -31,7 +31,7 @@
 
 
 ### Notes
-- Use FLAME or Nik gapps recommended (Basic causes bootloop for some reason)
+- Use FLAME or Nik gapps recommended
 - Safetynet passes without magisk
 
 # Flashing Instructions
@@ -41,4 +41,4 @@
 - Format DATA (!! Backup data before doing this !!)
 - Reboot
 
-## Credits - @Aryannn999 and @grewal for trees
+### Credits - @Aryannn999, @vantoman and @grewal for trees
