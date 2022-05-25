@@ -1,47 +1,57 @@
 # ForkLineage OS
 ![image](https://user-images.githubusercontent.com/30686963/129340582-c5edac6e-cbfa-4750-acf9-ea62bf84af5c.png)
 
-# Changelogs
-### 23/10/2021
-- Update ANXCamera to v204
-- Update s5kgw3 camera configs from MIUI v12.5.8.0 RKFINXM
-- Update brightness overlays from MIUI V12.5.6.0 RKFMIXM
-- Import stock media_profiles
-- Update blobs from MIUI v12.5.8.0 RKFMIXM
-- Update libarcsoft_super_night_raw compatible with camera package
-- Misc improvements
-
-### Source Changelog
-- October Patch merged
-- Fixed volume dialog glitch with per app volume panel
-- Fixed network traffic indicator disappearing
-- Added activity indicators for wifi icon
-- Improved icon pack support in launcher(icon pack gets applied in recents also)
-- Added flashlight blink for incoming call
-- Added iOS like toast notification for clipboard access
-- Added simple fade filter to media artwork 
-- Added option to hide lock icon on lockscreen
+### Source changelog:
+- May Security Patch merged
+- Fixed laggy Quick settings
+- Fixed location indicator glitch in QS
+- Removed VoLTE and VoWIfi icons
+- Added launcher3 from crdroid in vanilla build
+- Hotspot client manager and hidden ssid settings
+- Added settings to block annoying signal strength icon
+- Implement cutout force full screen
+- Added back Dash Charging/VOOC/Warp/Turbo Charging support
 - Lineage upstream
+- Added Gamespace support
+- Added Reticker
+- Improve fingerprint unlock speed
+- Vibration patterns from OOS
+- Flashlight blink for incoming call
+- Added toggle to disable fingerprint authentication vibration
 
-### Note:
-- Includes MIUI camera port
-- Use LowDimen kernel
-- If KCAL doesnt work, toggle Reading mode in LiveDisplay once and try again
+### Device changelog:
+- overlay: increase Doze Brightness
+- Switch to VantomKernel and use proton clang
+- Update blobs from sweet SKQ1.210908.001 V13.0.9.0.SKFEUXM
+- Update build fingerprints from MIUI 13
+- Xiaomiparts imrpovements
+- Address some denials
+- audio: fix incall mic with headphones
+- Update IBluetoothAudioProvidersFactory HAL to v2.1
+- Upgrade IImsFactory to 1.1 in manifest
+- Upver vendor.qti.hardware.radio.lpa@1.1
+- Update QtiRadio HAL to v2.6.
+- Update UCE service HAL to v2.3.
+- Update ImsRadio HAL to v1.7.
+- Update QTI factory HAL to v2.2.
+- overlay: Disable proximity sensor check before pulsing
+- overlay: Change default status bar height
+- biometrics: Add blank callbacks for udfps
+- parts: Switch to aospextended settings resources
+- Set the default IMS RCS package to com.android.service.ims.
+- prop: Move ro.netflix.bsp_rev prop into vendor
 
-### Check previous changelog [HERE](https://raw.githubusercontent.com/makhk-devices/Changelogs/main/flos/changelog.txt)
 
-### Credits
-- @daniml3 & @grewal for trees
+### Notes
+- Nik core gapps recommended
+- Safetynet passes without magisk
+- No miuicam
 
 # Flashing Instructions
-### Clean Flash (From other ROMs)
+### Clean Flash
 - Reboot to recovery
-- Flash ROM, Gapps and Magisk (Optional)
+- Flash ROM, Gapps (Optional)
 - Format DATA (!! Backup data before doing this !!)
 - Reboot
 
-### Dirty Flash (From previous build of same ROM)
-- Reboot to recovery
-- Flash ROM, Gapps and Magisk (Optional)
-- Wipe Caches
-- Reboot
+### Credits - @Aryannn999, @vantoman and @grewal for trees
